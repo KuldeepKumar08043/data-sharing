@@ -1,0 +1,10 @@
+<div class="componentContainer">
+  <h3 class="heading">Route Component A</h3>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text">Dynamic value</span>
+    </div>
+    <input type="text" class="form-control w-50" #componentAValue placeholder="Enter value and get in component B" aria-label="Default">
+    <button type="button" class="btn btn-primary compA" (click)="onActionHandler(componentAValue)">Send value to RouteComponent B</button>
+  </div>
+</div>

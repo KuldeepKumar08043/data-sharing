@@ -1,0 +1,5 @@
+.container{ display: flex; justify-content: space-around; }
+.content{
+    margin-top: 50px;
+}
+.heading{ font-size: 22px; color: #707070;} 
