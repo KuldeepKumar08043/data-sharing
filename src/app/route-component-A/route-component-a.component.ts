@@ -4,7 +4,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'route-component-a',
   templateUrl: './route-component-a.component.html',
-  styleUrls: ['./route-component-a.component.scss']
+  styleUrls: ['./route-component-a.component.css']
 })
 export class RouteComponentA implements OnInit {
 
